@@ -4,14 +4,14 @@ public class IndirectRecursion {
     public static void main(String[] args) {
         print1(10);
     }
-//    static void printN(int N){  //Direct recursion
-//        if(N == 1)
-//            System.out.println(N);
-//        else {
-//            System.out.println(N);
-//            printN(N-1);
-//        }
-//    }
+    static void printN(int N){  //Direct recursion
+        if(N == 1)
+            System.out.println(N);
+        else {
+            System.out.println(N);
+            printN(N-1);
+        }
+    }
 
     //indirect recursion
     static void print1(int N){
