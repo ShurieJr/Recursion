@@ -10,10 +10,10 @@ eventually converge on the _base case_ .
 
 Content of a Recursive Method
 --------------------------------------
-1.**Base case(s)**
+1.Base case(s)
 Values of the input variables for which we perform no recursive calls are called base cases (there should be at least one base case). 
 Every possible chain of recursive calls must eventually reach a base case.
-2.**Recursive calls**
+2.Recursive calls
 Calls to the current method. 
 Each recursive call should be defined so that it makes progress towards a base case.
 ----------
