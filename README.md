@@ -16,6 +16,12 @@ Every possible chain of recursive calls must eventually reach a base case.
 2.**Recursive calls**
 Calls to the current method. 
 Each recursive call should be defined so that it makes progress towards a base case.
+----------
+ infinite recursion
+ ------------
+A definition without a non-recursive part causes infinite recursion.
+
+
 
 
 
